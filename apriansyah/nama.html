@@ -1,0 +1,62 @@
+<html>
+    <title>Link ke halaman web</title>
+    <body>
+        <h1>Formulir Pendaftaran Siswa</h1>
+        <form>
+            <label for="nama">Nama Calon Siswa:</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+            <label for="TTL">Tempat Tanggal Lahir:</label>
+            <input type="text" id="TTL" name="TTL" required>
+            <input type="date"><br><br>
+
+            <label for="Agama">Agama:</label>
+            <select name="dropdown">
+                <option value="Islam" selected>Islam</option>
+                <option value="Kristen" selected>Kristen</option>
+                <option value="Katolik" selected>Katolik</option>
+                <option value="Hindu" selected>Hindu</option>
+                <option value="Buddha" selected>Buddha</option>
+            </select><br><br>
+
+            <label for="Alamat">Alamat:</label>
+            <input type="text" id="Alamat" name="Alamat" required><br><br>
+
+            <label for="No.Telp/Hp">No.Telp/Hp:</label>
+            <input type="text" id="No.Telp/Hp" name="No.Telp/Hp" required><br><br>
+
+            <label for="jenis kelamin">Jenis Kelamin:</label>
+            <input type="checkbox" name="Pria" Value="on"> Pria
+            <input type="checkbox" name="Wanita" Value="on"> Wanita
+            
+            <br><label for="foto">Pas Foto:</label></br>
+            <input type="file" id="foto" name="foto" accept="image/*">
+            
+            
+            <input type="checkbox" name="maths" Value="on"> Maths
+            <input type="checkbox" name="Algoritm" Value="on"> Algoritma
+            <input type="checkbox" name="physics" Value="on"> Physics
+            <input type="checkbox" name="database" Value="on"> Database
+
+            
+            <select name="dropdown">
+                <option value="maths" selected>Maths</option>
+                <option value="algoritm" selected>Algoritma</option>
+                <option value="physics" selected>Physics</option>
+                <option value="database" selected>Database</option>
+            </select>
+            
+            <br>
+            <input type="file" name="fileupload" accept="*image/*"/>
+            </br>
+
+            <br>
+            <input type="submit" name="submit" value="Submit"/>
+            <input type="reset" name="reset" value="Reset"/>
+            <input type="button" name="ok" value="OK"/>
+            <input type="image" name="imagebutton" src="Gambar"/>
+            </br>
+            
+
+        </form> 
+    </body>
+</html>
